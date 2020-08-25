@@ -1,0 +1,214 @@
+{
+  "uid" : "fb3b72e279e2b125",
+  "name" : "allureFakeParameterizedTest",
+  "fullName" : "io.qameta.allure.examples.testng.AllureParameterizedTest.allureFakeParameterizedTest",
+  "historyId" : "85692e4c9f53136346003caaddfeb883",
+  "time" : {
+    "start" : 1598365759636,
+    "stop" : 1598365759638,
+    "duration" : 2
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "beforeTest",
+    "time" : {
+      "start" : 1598365759228,
+      "stop" : 1598365759228,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Step inside beforeTest",
+      "time" : {
+        "start" : 1598365759228,
+        "stop" : 1598365759228,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  }, {
+    "name" : "beforeSuite",
+    "time" : {
+      "start" : 1598365759206,
+      "stop" : 1598365759221,
+      "duration" : 15
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Step inside beforeSuite",
+      "time" : {
+        "start" : 1598365759214,
+        "stop" : 1598365759217,
+        "duration" : 3
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Step inside fake parameterized test",
+      "time" : {
+        "start" : 1598365759638,
+        "stop" : 1598365759638,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "afterTest",
+    "time" : {
+      "start" : 1598365759722,
+      "stop" : 1598365759722,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Step inside afterTest",
+      "time" : {
+        "start" : 1598365759722,
+        "stop" : 1598365759722,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  }, {
+    "name" : "afterSuite",
+    "time" : {
+      "start" : 1598365759733,
+      "stop" : 1598365759733,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Step inside afterSuite",
+      "time" : {
+        "start" : 1598365759733,
+        "stop" : 1598365759733,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "io.qameta.allure.examples.testng.AllureParameterizedTest"
+  }, {
+    "name" : "testClass",
+    "value" : "io.qameta.allure.examples.testng.AllureParameterizedTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "allureFakeParameterizedTest"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Gradle suite"
+  }, {
+    "name" : "suite",
+    "value" : "Gradle test"
+  }, {
+    "name" : "subSuite",
+    "value" : "io.qameta.allure.examples.testng.AllureParameterizedTest"
+  }, {
+    "name" : "host",
+    "value" : "fv-az54"
+  }, {
+    "name" : "thread",
+    "value" : "4252@fv-az54.Test worker(9)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "fakeParam",
+    "value" : "fakeValue"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "fb3b72e279e2b125.json",
+  "parameterValues" : [ "fakeValue" ]
+}
