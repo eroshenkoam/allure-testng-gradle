@@ -27,6 +27,7 @@ allure {
 
 test {
     ignoreFailures = true
+    testLogging.showStandardStreams = true
     useTestNG {
 
     }
@@ -39,7 +40,7 @@ repositories {
 
 dependencies {
     implementation("io.qameta.allure:allure-java-commons:$allureVersion")
+    implementation("org.testng:testng:$testngVersion")
 
-    testImplementation("org.testng:testng:$testngVersion")
     testImplementation("org.slf4j:slf4j-simple:1.7.30")
 }
